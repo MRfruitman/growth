@@ -1,0 +1,26 @@
+ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+li{
+    box-sizing: border-box;
+    height: 70px;
+    width: 25%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s ease;
+    cursor: pointer;
+    border-radius: 20px;
+}
+li:hover{
+    background-color: #8a92f4;
+}
+li:hover a{
+    color: white;
+}
+@media screen and (max-width: 64em)and (min-width: 42em){ .add{
+width: 50%;
+}
+}
